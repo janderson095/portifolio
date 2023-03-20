@@ -17,6 +17,8 @@ header {
     /* é um shortcut para definir diversas propriedades da borda de baixo (bottom) ao mesmo tempo; ele define a espessura, cor e tipo da borda de uma só vez. */
     text-shadow: 5px 5px 5px black;
     /* acrescenta sombras ao texto. */
+    letter-spacing: 10px;
+    /* espassamento entre as letras do texto */
 }
 
 .container {
@@ -120,6 +122,8 @@ h3{
     /* destina-se a definir bordas arredondadas. */
     transition: 1s;
     /* é um poderoso recurso para a criação de efeitos de animação nos elementos HTML, quando passa o mouse no botao comprar ele altera a cor do botao */
+    letter-spacing: 5px;
+    /* espassamento entre as letras do texto */
 
 }
     /* informações igual ao btn de cima */
@@ -134,6 +138,7 @@ h3{
     padding: 10px;
     border-radius: 5px;
     transition: 1s;
+    letter-spacing: 5px;
     
 }
 
