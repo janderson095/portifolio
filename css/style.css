@@ -31,7 +31,7 @@ header {
 }
 
 .card{
-    width: 31%; 
+    width: 22%; 
     /* determina a largura da área de conteúdo de um elemento. */
     display: inline-block;
     /* define se um elemento é tratado como um bloco ou elemento inline (en-US) e o layout usado para seus filhos, como layout de fluxo (en-US), grid ou flex. */
@@ -43,6 +43,15 @@ header {
     /* define a margin area na parte inferior de um elemento. */
     text-shadow: 1px 1px 1px black;
     /* acrescenta sombras ao texto. */
+}
+
+.bordas{
+    background-color: rgba(110, 106, 106, 0.253);
+    /* Utilizamos essa propriedade para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo. */
+    padding: 10px;
+    /* define uma a distância entre o conteúdo de um elemento e suas bordas. */
+    border-radius: 10px;
+    /* destina-se a definir bordas arredondadas. */
 }
 
 .product-image{
@@ -112,17 +121,17 @@ h3{
     /* A propriedade text-decoration do CSS é usada para definir a formatação de underline, overline, line-through ou blink. As decorações underline e overline são posicionadas abaixo e acima do texto (respectivamente), e line-through cortando-o. A propriedade text-decoration desenha em elementos descendentes. None = Nenhuma formatação */
     text-transform: uppercase;
     /* Coloca todas as letras em maiúscula */
-    background-color: rgba(0, 0, 255, 0.719);
+    background-color: red;
     /* Utilizamos essa propriedade para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo. */
     color: #fff;
     /* cor do texto  */
-    padding: 10px;
+    padding: 7px;
     /* define uma a distância entre o conteúdo de um elemento e suas bordas. */
     border-radius: 5px;
     /* destina-se a definir bordas arredondadas. */
     transition: 1s;
     /* é um poderoso recurso para a criação de efeitos de animação nos elementos HTML, quando passa o mouse no botao comprar ele altera a cor do botao */
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     /* espassamento entre as letras do texto */
 
 }
@@ -135,21 +144,43 @@ h3{
     text-transform: uppercase;
     background-color: rgba(0, 0, 255, 0.719);
     color: #fff;
-    padding: 10px;
+    padding: 7px;
     border-radius: 5px;
     transition: 1s;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    
+}
+
+.btn2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 255, 0.719);
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    transition: 1s;
+    letter-spacing: 3px;
     
 }
 
 .btn:hover {
-    background-color:darkcyan;
+    background-color:rgb(223, 128, 45);
     /* Utilizamos essa propriedade para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo.  */
     text-shadow: 5px 5px 5px black;
     /* acrescenta sombras ao texto. */
 }
 
 .btn1:hover {
+    background-color: darkcyan;
+     /* Utilizamos essa propriedade para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo.  */
+    text-shadow: 5px 5px 5px black;
+    /* acrescenta sombras ao texto. */
+}
+
+.btn2:hover {
     background-color: darkcyan;
      /* Utilizamos essa propriedade para alterar a cor do plano de fundo, seja de um elemento ou do documento como um todo.  */
     text-shadow: 5px 5px 5px black;
