@@ -12,7 +12,7 @@ header {
     padding: 15px;
     /* define uma a distância entre o conteúdo de um elemento e suas bordas. */
     text-align: center;
-    /* Esta propriedade destina-se a definir o alinhamento horizontal do texto.  */
+    /* Esta propriedade destina-se a definir o alinhamento horizontal do texto. no caso centralizado  */
     border-bottom: 3px solid black;
     /* é um shortcut para definir diversas propriedades da borda de baixo (bottom) ao mesmo tempo; ele define a espessura, cor e tipo da borda de uma só vez. */
     text-shadow: 5px 5px 5px black;
